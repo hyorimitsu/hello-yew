@@ -10,7 +10,7 @@ This is a sample of [yew](https://yew.rs/), a modern Rust framework for creating
 
 This is a simple count-up application using [yew](https://yew.rs/).
 
-# Usage
+## Usage
 
 1. Build the application.
 
