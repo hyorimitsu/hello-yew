@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  web:
+    image: svenstaro/miniserve:0.19.4-alpine
+    ports:
+      - "8080:8080"
+    volumes:
+      - ${APP_WEB_DIR}:/web
+    working_dir: /web
+    command: --index index.html
+    container_name: web
